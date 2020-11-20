@@ -1,0 +1,113 @@
+/*font-family: 'Poppins', sans-serif; 300,500,700*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*  */
+.nav
+{
+    background: #01253aad;
+}
+.nav .a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.7em;
+    padding: .4em;
+}
+/*  */
+.contain--form
+{
+    margin: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.form
+{
+    width: 100%;
+    height: auto;
+    background-color: #022e2ed0;
+}
+.contain--form .form  h1
+{
+    text-align: center;
+    color: #ffffff;
+}
+.form .form__input
+{
+    padding: .5em;
+}
+.form .form__input input
+{
+    width: 100%;
+    padding: .5em;
+}
+.form .form__input textarea
+{
+    width: 100%;
+    padding: .5em;
+    resize: none;
+}
+::placeholder
+{
+    font-size: 1.4em;
+    color: #1b1b1bc2;
+}
+.form .btn
+{
+    border: 0;
+    background-color: #012133;
+    padding: .5em;
+    font-size: 1.2em;
+    color: #ffffff;
+    width: 95%;
+    margin: 0 1em .7em .5em;
+}
+.form .btn:hover
+{
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+/*  */
+.all__app
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.message
+{
+    width: 600px;
+    margin-top: 2em;
+}
+.message > div
+{
+    background-color: #257474d0;
+    color: #ffffff;
+    margin: 1em;
+    padding: .5em;
+}
+.message > div  span
+{
+    color: #000000;
+}
+.message > div  a
+{
+    display: block;
+    padding: .2em;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ff0000;
+    text-align: center;
+    margin: .5em 0 0 0;
+    font-size: 1.3em;
+}
+.message > div  a:hover
+{
+    color: #ffffff;
+}
